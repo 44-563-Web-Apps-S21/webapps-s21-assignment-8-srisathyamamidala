@@ -11,10 +11,7 @@ const server =
 
       res.write('<html> <head> <title> Served </title> </head>')
       
-      res.write('<body>')
-      res.write('Content \n')
-      res.write('More content \n')
-      res.write('Hello World')  
+      res.write('<body>')  
       res.write('<table>')
       res.write('<tr>')
       res.write('<th>Location</th>')
